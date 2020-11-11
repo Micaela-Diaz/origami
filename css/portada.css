@@ -1,0 +1,144 @@
+#contenido
+{
+  position: relative;
+  display: block;
+}
+
+#contenido
+{
+  overflow: auto;
+}
+
+#imagen-encabezado
+{
+  position: relative;
+  display: block;
+  height: 280px;
+  background-image: url(../imagenes/fondo-portada.jpg);
+}
+
+#imagen-encabezado > span
+{
+  position: absolute;
+  display: block;
+  background-color: rgba(64, 64, 65, 0.6);
+  color: #fff;
+  font-size: 42px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 120px;
+}
+
+#noticias
+{
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 225px;
+  background-color: #fff;
+}
+
+#noticias > div
+{
+  position: relative;
+  display: block;
+  height: 295px;
+  overflow: auto;
+}
+
+#noticias > a
+{
+  position: absolute;
+  display: block;
+  background-color: #00adee;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+#noticias > div > a
+{
+  position: relative;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #58595b;
+}
+
+#noticias > div > a > span
+{
+  position: relative;
+  display: block;
+  color: #00adee;
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+#noticias > div > a > p
+{
+  margin: 0;
+}
+
+#noticias > div > a:hover
+{
+  background-color: #404041;
+}
+
+#noticias > div > a:hover p
+{
+  color: #fff;
+}
+
+.columna-introduccion
+{
+  position: relative;
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-border-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.columna-introduccion h1,
+.columna-introduccion h2
+{
+  position: relative;
+  display: block;
+  margin: 0 0 5px;
+  font-weight: normal;
+}
+
+.columna-introduccion h1
+{
+  font-size: 36px;
+}
+
+.columna-introduccion h2
+{
+  font-size: 18px;
+}
+
+.columna-introduccion p 
+{
+  margin: 0 0 25px;
+}
+
+.columna-introduccion *
+{
+  padding-left: 40px;
+}
+
+.bullet-azul
+{
+  background: url(../imagenes/bullet.jpg) no-repeat left center;
+}

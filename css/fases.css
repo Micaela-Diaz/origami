@@ -1,0 +1,143 @@
+#fases
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+ 
+.columna-fases
+{
+    flex: 200px;
+    border-right: 3px solid #00adee;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ 
+#imagen-fases
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(../imagenes/mosaico-fases.jpg);
+    text-indent: 500px;
+    overflow: hidden;
+}
+ 
+.columna-fases h1
+{
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    background-color: #00adee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.columna-fases a
+{
+    color: #00adee;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 10px 0;
+    width: 200px;
+}
+
+.columna-fases a span:hover
+{
+    color: white;
+    background-color: #404041;
+    width: 200px;
+    padding: 10px;
+}
+
+.columna-aspectos
+{
+    display: flex;
+    flex: auto;
+}
+
+.columna-aspectos .left
+{
+    position: relative;
+    justify-content: center;
+    margin-top: 16px;
+    display: flex;
+    flex: 15%;
+}
+
+.columna-aspectos .left .number-box
+{
+    background-color: #00adee;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+.columna-aspectos .left .number
+{
+    color: white;
+    font-size: 48px;
+}
+
+.columna-aspectos .right
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 85%;
+}
+
+.columna-aspectos h1
+{
+    color: #1b1b1d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.columna-aspectos h2
+{
+    color: #00adee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.columna-aspectos p
+{
+    color: #404041;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px 0;
+    text-align: left;
+}
+
+button
+{   
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #00adee;
+   
+}
+
+
+
+
+
+
+
+
